@@ -14,7 +14,7 @@ verbs_singluar = ["become", "catch", "drink", "drive", "fly", "forgive", "get", 
 verbs_plural = ["becomes", "catches", "drinks", "drives", "flies", "forgives", "gets", "goes", "hides", "knows", "leads", "pays", "rides", "seeks", "sings", "speaks", "springs", "steals", "tears", "wears", "writes"]
 infinitives = ["to make a pie.", "for no apparent reason.", "because the sky is green.", "for a disease.", "to be able to make toast explode.", "to know more about archeology."]
 
-broker = "ec2-54-237-25-84.compute-1.amazonaws.com:9092"
+broker = "hostname:9092"
 
 logging.info("Connection to Kafka = {0}".format(broker))
 

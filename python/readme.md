@@ -12,3 +12,5 @@ The python folder contains an example of submitting data to Kafka. It's rudiment
 3. Running the DataPusher.py script needs to run twice - the first time will fail
    because the topic doesn't exist.  The next pass will work.
    - I need to have it test and create the topic later on.
+4. You'll also need to supply a valid hostname in code (I'm going to add a config
+   for that shortly)
