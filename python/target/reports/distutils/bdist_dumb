@@ -1,0 +1,40 @@
+running bdist_dumb
+running build
+running build_py
+creating build
+creating build\lib
+copying datapusher.py -> build\lib
+installing to build\bdist.win32\dumb
+running install
+running install_lib
+creating build\bdist.win32
+creating build\bdist.win32\dumb
+creating build\bdist.win32\dumb\Python27
+creating build\bdist.win32\dumb\Python27\Lib
+creating build\bdist.win32\dumb\Python27\Lib\site-packages
+copying build\lib\datapusher.py -> build\bdist.win32\dumb\Python27\Lib\site-packages
+byte-compiling build\bdist.win32\dumb\Python27\Lib\site-packages\datapusher.py to datapusher.pyc
+running install_egg_info
+running egg_info
+writing python.egg-info\PKG-INFO
+writing top-level names to python.egg-info\top_level.txt
+writing dependency_links to python.egg-info\dependency_links.txt
+writing entry points to python.egg-info\entry_points.txt
+reading manifest file 'python.egg-info\SOURCES.txt'
+writing manifest file 'python.egg-info\SOURCES.txt'
+Copying python.egg-info to build\bdist.win32\dumb\Python27\Lib\site-packages\python-1.0.dev0-py2.7.egg-info
+running install_scripts
+creating 'D:\dev\Storm-Tutorial\python\target\dist\python-1.0.dev0\dist\python-1.0.dev0.win32.zip' and adding '.' to it
+adding 'Python27\Lib\site-packages\datapusher.py'
+adding 'Python27\Lib\site-packages\python-1.0.dev0-py2.7.egg-info\dependency_links.txt'
+adding 'Python27\Lib\site-packages\python-1.0.dev0-py2.7.egg-info\entry_points.txt'
+adding 'Python27\Lib\site-packages\python-1.0.dev0-py2.7.egg-info\PKG-INFO'
+adding 'Python27\Lib\site-packages\python-1.0.dev0-py2.7.egg-info\SOURCES.txt'
+adding 'Python27\Lib\site-packages\python-1.0.dev0-py2.7.egg-info\top_level.txt'
+adding 'Python27\Lib\site-packages\python-1.0.dev0-py2.7.egg-info\zip-safe'
+removing 'build\bdist.win32\dumb' (and everything under it)
+  File "\Python27\Lib\site-packages\datapusher.py", line 27
+    random.choice(nouns_singular).lower or random.choice(nouns_possesive).lower() + " " \
+         ^
+SyntaxError: invalid syntax
+
