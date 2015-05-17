@@ -1,3 +1,4 @@
 *.pyc
 python/target/**
 java/tutorial01/target/**
+/java/tutorials/Tutorial01/target/
