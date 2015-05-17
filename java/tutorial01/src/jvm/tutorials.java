@@ -21,7 +21,7 @@ import storm.kafka.trident.GlobalPartitionInformation;
  * Tutorials class
  * This is the beginning for a set of Apache Storm tutorials to share.
  * Once you get the general concepts, it's pretty straightforward.  However
- * getting thos concepts can take a bit of work.
+ * getting those concepts can take a bit of work.
  * @author Ash
  */
 public class tutorials {
